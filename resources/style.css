@@ -1,0 +1,167 @@
+/* Reset some basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header Styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #f8f8f8;
+}
+
+.header .logo h1 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.header nav ul li {
+    margin-left: 1.5rem;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Hero Section Styling */
+.hero {
+    text-align: center;
+    padding: 5rem 2rem;
+    background: url('"C:\Users\Bünyamin Demir\Desktop\DevProject\resources\css\Ekran görüntüsü 2024-11-16 145331.png"') no-repeat center/cover;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero button {
+    padding: 0.7rem 1.5rem;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+/* BIM Consultancy Section */
+.bim-consultancy {
+    padding: 2rem;
+    background-color: #f4f4f4;
+}
+
+.bim-consultancy h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.bim-consultancy h3 {
+    margin-top: 1rem;
+    color: #333;
+}
+
+.bim-consultancy p {
+    color: #666;
+}
+
+/* Services Section */
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.service-item {
+    text-align: center;
+    max-width: 300px;
+}
+
+.service-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.service-item h3 {
+    margin: 1rem 0;
+    color: #333;
+}
+
+/* Social Media Section */
+.social {
+    text-align: center;
+    padding: 2rem;
+}
+
+.social-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social-gallery img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.social-links a {
+    margin: 0.5rem;
+    text-decoration: none;
+    color: #333;
+    border-bottom: 1px solid #333;
+}
+
+/* Contact Section */
+.contact {
+    padding: 2rem;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    max-width: 500px;
+    margin: auto;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 0.7rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 0.7rem 2rem;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
